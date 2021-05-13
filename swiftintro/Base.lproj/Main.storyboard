@@ -47,6 +47,11 @@
                             <constraint firstItem="pf1-Dd-MRv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="wTx-Qe-y77"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="changeButtonClicked" destination="3be-Fj-HYI" id="1a3-UI-bfl"/>
+                        <outlet property="imageView" destination="vdG-U6-2i1" id="h9z-x5-O1k"/>
+                        <outlet property="myLabel" destination="pf1-Dd-MRv" id="5wt-Mb-dei"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
