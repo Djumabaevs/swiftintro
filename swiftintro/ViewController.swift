@@ -8,8 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var changeButtonClicked: UIButton!
+    
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
@@ -17,9 +16,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("finally github connected to my project")
         
-        
     }
 
 
+    @IBAction func changeButtonClicked(_ sender: Any) {
+        imageView.image = UIImage(named: "viewofmountains")
+    }
 }
 
