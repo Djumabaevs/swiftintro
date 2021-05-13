@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,9 +18,9 @@ class ViewController: UIViewController {
         
     }
 
-
-    @IBAction func changeButtonClicked(_ sender: Any) {
-        imageView.image = UIImage(named: "viewofmountains")
+        
+    @IBAction func buttonChangeClick(_ sender: Any) {
+        myImageView.image = UIImage(named: "viewofmountains")
     }
 }
 

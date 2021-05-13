@@ -30,7 +30,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Change"/>
                                 <connections>
-                                    <action selector="changeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPb-N0-ZMY"/>
+                                    <action selector="buttonChangeClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GO9-qB-day"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="viewofriver" translatesAutoresizingMaskIntoConstraints="NO" id="vdG-U6-2i1">
@@ -51,7 +51,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="changeButtonClicked" destination="3be-Fj-HYI" id="1a3-UI-bfl"/>
+                        <outlet property="myImageView" destination="vdG-U6-2i1" id="Rui-Ih-XpV"/>
                         <outlet property="myLabel" destination="pf1-Dd-MRv" id="5wt-Mb-dei"/>
                     </connections>
                 </viewController>
