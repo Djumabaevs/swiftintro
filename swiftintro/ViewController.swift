@@ -16,11 +16,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("finally github connected to my project")
         
+        
+        
     }
 
         
     @IBAction func buttonChangeClick(_ sender: Any) {
         myImageView.image = UIImage(named: "viewofmountains")
+        print("app works!!")
     }
 }
 
